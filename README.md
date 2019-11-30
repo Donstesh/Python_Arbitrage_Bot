@@ -14,3 +14,11 @@ $ ```source ./catalyst-venv/bin/activate```
 $ ```pip install enigma-catalyst matplotlib```
 
 2. clone and contribute Contribute to the project 
+
+when you get errors like 
+
+```ERROR: matplotlib 1.3.1 requires nose, which is not installed.```
+```ERROR: matplotlib 1.3.1 requires tornado, which is not installed.```
+
+use ```sudo easy_install nose```
+and ```sudo easy_install tornado```
